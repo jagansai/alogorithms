@@ -17,7 +17,7 @@ from typing import List
 # 7 8 9
 
 
-def diagonalDifference(arr: List[int]):
+def diagonalDifference(arr: List[List[int]]):
     length = len(arr[0])
 
     def collect_diagonals(left_column, right_column):
